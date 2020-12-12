@@ -1,5 +1,5 @@
 # Siam R-CNN: Visual Tracking by Re-Detection
-### Paul Voigtlaender, Jonathon Luiten, Philip H.S. Torr, Bastian Leibe
+### [Paul Voigtlaender](https://www.vision.rwth-aachen.de/person/197/), [Jonathon Luiten](https://www.vision.rwth-aachen.de/person/216/), [Philip H.S. Torr](https://www.robots.ox.ac.uk/~tvg/), [Bastian Leibe](https://www.vision.rwth-aachen.de/)
 The corresponding project page can be found here: https://www.vision.rwth-aachen.de/page/siamrcnn
 
 This software is written in Python3 and powered by TensorFlow 1.
