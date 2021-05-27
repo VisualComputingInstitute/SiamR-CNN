@@ -35,6 +35,8 @@ class PrecomputingReferenceTracker(Tracker):
                 cfg.BACKBONE.RESNET_NUM_BLOCKS = [3, 4, 6, 3]
             elif model == "gotonly":
                 load = "train_log/hard_mining3_onlygot/model-1361000"
+            elif model.startswith("checkpoint:"):
+                load = model.replace("checkpoint:", "")
             else:
                 assert False, ("unknown model", model)
             from dataset import DetectionDataset

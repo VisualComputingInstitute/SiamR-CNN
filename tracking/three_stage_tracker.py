@@ -29,9 +29,9 @@ class Tracklet:
 
 
 class ThreeStageTracker(PrecomputingReferenceTracker):
-    def __init__(self, tracklet_distance_threshold=0.08, tracklet_merging_threshold=0.4,
-                 tracklet_merging_second_best_relative_threshold=0.1, ff_gt_score_weight=0.4,
-                 ff_gt_tracklet_score_weight=0.2, location_score_weight=0.0, do_viz=False,
+    def __init__(self, tracklet_distance_threshold=0.06, tracklet_merging_threshold=0.3,
+                 tracklet_merging_second_best_relative_threshold=0.3, ff_gt_score_weight=0.1,
+                 ff_gt_tracklet_score_weight=0.9, location_score_weight=7.0, do_viz=False,
                  name="ThreeStageTracker", model="best", n_proposals=None, resolution=None):
         """
         :param tracklet_merging_threshold: minimum score required to merge a detection into tracklet
